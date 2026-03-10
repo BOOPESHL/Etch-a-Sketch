@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Etch-a-Sketch</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "script.js" defer></script>
+    </head>
+    <body>
+        
+        <div class = "details">
+            <div>
+                <label>Rows</label>
+                <input class = "rows" type = "number" min = 1 max = 100>
+            </div>
+            <div>
+                <label>Columns</label>
+                <input class = "cols" type = "number" min = 1 max = 100>
+            </div>
+            <select class = "color">
+                <option value = "#000000">Black</option>
+                <option value = "#36454F">Charcoal</option>
+                <option value = "#023020">Dark Green</option>
+                <option value = "#301934">Dark Purple</option>
+                <option value = "#343434">Jet Black</option>
+                <option value = "#1B1212">Licorice</option>
+                <option value = "#28282B">Matte Black</option>		
+                <option value = "#191970">Midnight Blue</option>
+                <option value = "#353935">Onyx</option>	
+            </select>
+            <button class = "resetButton">Reset Grid</button>
+        </div>
+
+        <div>
+            <h1>Etch-a-Sketch</h1>
+            <div class = "sketchBox"></div>
+        </div>
+    
+    </body>
+</html>
